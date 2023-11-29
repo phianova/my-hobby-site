@@ -6,7 +6,7 @@
     <title>Birds of New Zealand</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-mono flex flex-col justify-between">
+<body class="font-mono flex flex-col justify-between bg-[url('./images/wallpaper.jpeg')] bg-fixed">
   <nav class="bg-orange-300 w-full shadow-md z-10">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-20 items-center justify-between">
@@ -54,21 +54,39 @@
       }
     </script>
   </nav>
-  <h1 class="bg-green-800 w-full shadow-md mt-5 text-center text-3xl h-20 p-5 text-orange-300 font-bold">
+  <div class="bg-orange-50 bg-opacity-50">
+    <h1 class="bg-green-800 w-full shadow-md mt-5 md:mt-10 text-center text-3xl h-1/12 p-5 text-orange-300 font-bold">
     Conservation efforts
   </h1>
-  <main class="min-h-screen grid grid-cols-1 sm:grid-cols-5 m-5">
-    <aside class="col-span-1 text-center bg-green-800 text-white bg-opacity-80 shadow-md z-8">
-      <ul class="flex flex-col justify-between">
-        <li class="p-5"><a href="#about">About this site</a></li>
+  <div class="bg-orange-200 w-full shadow-md mt-4 text-center text-sm h-1/12 p-5 text-green-800 font-bold">
+    <p>Here is some more information about efforts to preserve New Zealand bird life.</p>
+  </div>
+  <main class="min-h-screen grid grid-cols-1 sm:grid-cols-5 m-5 md:mt-10 md:mx-auto md:w-10/12">
+    <aside class="col-span-1 text-center bg-green-800 text-white bg-opacity-90 shadow-md z-8 rounded-t-2xl sm:rounded-tl-2xl sm:rounded-tr-none sm:rounded-bl-2xl">
+        <ul class="flex flex-col justify-between sm:mt-5">
+        <li class="p-5"><a href="#intro-conservation">Conservation</a></li>
         <div class="border-t-2 w-5/6 m-auto"></div>
-        <li class="p-5"><a href="#history">A history of NZ birds</a></li>
+        <li class="p-5"><a href="#predator-free">"Predator free"</a></li>
         <div class="border-t-2 w-5/6 m-auto"></div>
-        <li class="p-5"><a href="#special">What's so special about NZ birds?</a></li>
+        <li class="p-5"><a href="#successes">Successes</a></li>
+        <div class="border-t-2 w-5/6 m-auto"></div>
+        <li class="p-5"><a href="#how-to-help">How to help</a></li>
       </ul>
     </aside>
-    <section class="p-10 sm:col-span-4 bg-orange-100 bg-opacity-80 flex flex-col">
+    <section class="p-10 sm:col-span-4 bg-orange-100 bg-opacity-90 rounded-b-2xl sm:rounded-tr-2xl sm:rounded-bl-none sm:rounded-br-2xl">
+        <h3 id="intro-conservation" class="font-bold">Conservation of New Zealand's native birds</h3>
+        <p class="md:p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora itaque, a rerum nesciunt dicta ducimus numquam molestias totam id, alias, voluptatibus suscipit dolor amet modi quibusdam dolorum. Animi, ex expedita.</p>
+        <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
+        <h3 id="predator-free" class="pt-5 font-bold">"Predator free"</h3>
+        <p class="md:p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora itaque, a rerum nesciunt dicta ducimus numquam molestias totam id, alias, voluptatibus suscipit dolor amet modi quibusdam dolorum. Animi, ex expedita.</p>
+        <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
+        <h3 id="successes" class="pt-5 font-bold">Successes</h3>
+        <p class="md:p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora itaque, a rerum nesciunt dicta ducimus numquam molestias totam id, alias, voluptatibus suscipit dolor amet modi quibusdam dolorum. Animi, ex expedita.</p>  
+        <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
+        <h3 id="how-to-help" class="pt-5 font-bold">How to help</h3>
+        <p class="md:p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora itaque, a rerum nesciunt dicta ducimus numquam molestias totam id, alias, voluptatibus suscipit dolor amet modi quibusdam dolorum. Animi, ex expedita.</p>  
     </section>
+    </div>
   </main>
   <footer class="p-4 text-center w-full bg-green-800 shadow-md">
       <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">

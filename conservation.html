@@ -58,6 +58,7 @@
       }
     </script>
   </nav>
+  <!--Header and subheader-->
   <div class="bg-orange-50 bg-opacity-50">
     <h1 class="bg-green-800 w-full shadow-md mt-5 md:mt-10 text-center text-3xl md:text-4xl lg:text-5xl lg:p-8 h-1/12 p-5 text-orange-300 font-bold">
     Conservation efforts
@@ -66,6 +67,7 @@
     <p>Here is some more information about efforts to preserve New Zealand bird life.</p>
   </div>
   <main class="min-h-screen grid grid-cols-1 sm:grid-cols-5 m-5 md:mt-10 md:mx-auto md:w-10/12">
+    <!--Sidebar for internal navigation-->
     <aside class="col-span-1 text-center bg-green-800 text-white bg-opacity-90 shadow-md z-8 rounded-t-2xl sm:rounded-tl-2xl sm:rounded-tr-none sm:rounded-bl-2xl">
         <ul class="flex flex-col justify-between sm:mt-5">
         <li class="p-5"><a href="#intro-conservation" class="hover:-translate-y-1 duration-300 inline-block lg:text-lg">Conservation</a></li>
@@ -79,47 +81,51 @@
         <img src="./images/kiwiwhite.png" class="w-1/12 sm:w-3/12 mx-auto py-5">  
     </ul>
     </aside>
+    <!--Main body of text with images-->
     <section class="p-10 sm:col-span-4 bg-orange-100 bg-opacity-90 rounded-b-2xl sm:rounded-tr-2xl sm:rounded-bl-none sm:rounded-br-2xl">
         <h3 id="intro-conservation" class="font-bold sm:text-lg md:text-xl lg:text-2xl">Conservation of New Zealand's native birds</h3>
         <p class="my-2 p-3 md:p-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">There have been efforts to conserve New Zealand's wildlife since at least 1885. This included the control of introduced pests from 1893 onwards.
             <br>You can read more on the history of NZ conservation <a href="https://www.doc.govt.nz/our-work/heritage/heritage-topics/nature-conservation/#:~:text=Initial%20responses%20to%20protect%20biodiversity,permanent%20protection%20to%20key%20heritage." target="_blank" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">here</a>.</p>
-            <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
+        <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
         <h3 id="predator-free" class="pt-5 font-bold sm:text-lg md:text-xl lg:text-2xl">"Predator free"</h3>
-        <p class="p-3 pt-6 md:px-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">One approach to conservation that has become popular in New Zealand is the aim to make the islands <a href="https://predatorfreenz.org/about-us/predator-free-2050/history-eradication/" target="_blank" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">"predator free"</a> by 2050. This has been controversial, as it essentially means the eradication of invasive or non-native mammal species that threaten the existence of New Zealand's native birds and wildlife.
-        </p><p class="p-3 md:px-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">This can involve trapping or poisoning mammals like rats, possums and mice. It might seem an extreme approach, but it has been shown to work - in areas where these tactics have been used, bird populations have recovered incredibly well.
-        </p>
+        <p class="p-3 pt-6 md:px-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">One approach to conservation that has become popular in New Zealand is the aim to make the islands <a href="https://predatorfreenz.org/about-us/predator-free-2050/history-eradication/" target="_blank" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">"predator free"</a> by 2050. This has been controversial, as it essentially means the eradication of invasive or non-native mammal species that threaten the existence of New Zealand's native birds and wildlife.</p>
+        <p class="p-3 md:px-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">This can involve trapping or poisoning mammals like rats, possums and mice. It might seem an extreme approach, but it has been shown to work - in areas where these tactics have been used, bird populations have recovered incredibly well.</p>
         <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
         <h3 id="successes" class="pt-5 font-bold sm:text-lg md:text-xl lg:text-2xl">Successes</h3>
         <div class="p-3 md:p-5">
             <p class="py-3 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">There have been some incredible success stories in NZ conservation over the last few decades.</p>
             <p class="mb-5 py-3 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">One renowned success is the recovery of the black robin, which came incredibly close to extinction with only 5 known birds left in 1980. By getting a pair of birds of a different species to "foster" the precious young of the last breeding pair, conservationists including Don Merton were able to save the species. There were around 250 black robins in 2013.</p>
+            <!--Grid divider to format images and text responsively-->
             <div class="grid grid-cols-1 w-full mx-auto md:gap-5 md:w-11/12 md:grid-cols-2 md:items-center md:justify-center auto-rows-max">
                 <div class="mt-5 md:my-5">
-                <img src="./images/black-robin.avif" alt="A Chatham Island black robin" class="mx-auto h-1fr w-full rounded-2xl">
-                <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">A Chatham Island black robin</p>    
+                  <img src="./images/black-robin.avif" alt="A Chatham Island black robin" class="mx-auto h-1fr w-full rounded-2xl">
+                  <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">A Chatham Island black robin</p>    
                 </div>
                 <div class="mt-5 md:my-5">
-                <img src="./images/don-merton.avif" alt="Conservationist Don Merton holding a kakapo" class="mx-auto h-auto w-full rounded-2xl">
-                <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">Renowned conservationist Don Merton</p>
-            </div>
+                  <img src="./images/don-merton.avif" alt="Conservationist Don Merton holding a kakapo" class="mx-auto h-auto w-full rounded-2xl">
+                  <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">Renowned conservationist Don Merton</p>
+                </div>
             </div>    
             <p class="my-5 p-3 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">The kakapo, though still critically endangered, has also come a long way since coming close to extinction in 1900. Breeding efforts have been challenging due to many of the species becoming inbred or infertile, as well as naturally slow breeding patterns. However thanks to the <a href="https://www.doc.govt.nz/our-work/kakapo-recovery/" target="_blank" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Kakapo Recovery Programme</a> there are now just under 250 kakapo alive today.</p>
             <img src="./images/con-kakapo.jpeg" alt="A kakapo in a bag being looked after by conservationists" class="mt-7 mx-auto w-full sm:w-11/12 rounded-2xl">
             <p class="p-2 my-2 text-xs italic text-center w-10/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">A kakapo undergoing a health check</p>
             <p class="my-5 p-3 rounded-2xl md:w-11/12 mx-auto text-base/7 lg:text-lg/8">Another flightless bird, the takahe, was declared extinct in 1851. Having been rediscovered in 1948, the population is now at 450 and growing.</p>
+            <!--Grid divider to format images and text responsively-->
             <div class="grid grid-cols-1 w-full mx-auto md:gap-5 md:w-11/12 md:grid-cols-2 md:items-center md:justify-center auto-rows-max">
-            <div class="mt-5 md:my-5"><img src="./images/con-takahe.jpeg" alt="Two takahe feeding their chick" class="mx-auto w-full rounded-2xl">
+              <div class="mt-5 md:my-5">
+                <img src="./images/con-takahe.jpeg" alt="Two takahe feeding their chick" class="mx-auto w-full rounded-2xl">
                 <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">Takahe feeding a chick</p>
-            </div>
-            <div class="mt-5 md:my-5"><img src="./images/con-takahe2.jpeg" alt="A takahe standing in a field next to some ferns" class="mx-auto w-full rounded-2xl">
+              </div>
+              <div class="mt-5 md:my-5">
+                <img src="./images/con-takahe2.jpeg" alt="A takahe standing in a field next to some ferns" class="mx-auto w-full rounded-2xl">
                 <p class="p-2 my-2 text-xs italic text-center w-11/12 mx-auto bg-orange-50 bg-opacity-80 rounded-2xl">A lone takahe</p>
-            </div>
+              </div>
             </div>
         </div>  
         <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
         <h3 id="how-to-help" class="pt-5 font-bold sm:text-lg md:text-xl lg:text-2xl">How to help</h3>
         <p class="p-3 pt-6 md:p-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">If you're New Zealand-based there are plenty of volunteering opportunities for conservation projects across the country - the Department of Conservation has more information.</p>
-            <p class="p-3 md:p-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">There are also some links on the <a href="resources.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Resources</a> page to projects currently looking for donations, including some of those above.</p>  
+        <p class="p-3 md:p-5 md:w-11/12 mx-auto text-base/7 lg:text-lg/8">There are also some links on the <a href="resources.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Resources</a> page to projects currently looking for donations, including some of those above.</p>  
     </section>
     </div>
   </main>

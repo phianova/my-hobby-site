@@ -58,15 +58,17 @@
       }
     </script>
   </nav>
+  <!--Header and subheader-->
   <div class="bg-orange-50 bg-opacity-50">
     <h1 class="bg-green-800 w-full shadow-md mt-5 md:mt-10 text-center text-3xl md:text-4xl lg:text-5xl lg:p-8 h-1/12 p-5 text-orange-300 font-bold">
     New Zealand Birds
-  </h1>
+    </h1>
   <div class="bg-orange-200 w-full shadow-md mt-4 text-center text-sm md:text-base h-1/12 p-5 text-green-800 font-bold">
     <p class="pb-3">Explore this site to find out more about New Zealand's amazing, rich bird life.</p>
     <p class="text-xs italic leading-5 opacity-70">This is an example site created for The Developer Academy's Web Development bootcamp.</p>
   </div>
   <main class="min-h-screen grid grid-cols-1 sm:grid-cols-5 m-5 md:mt-10 md:mx-auto md:w-10/12">
+  <!--Sidebar for internal navigation-->
     <aside class="col-span-1 text-center bg-green-800 text-white bg-opacity-90 shadow-md z-8 rounded-t-2xl sm:rounded-tl-2xl sm:rounded-tr-none sm:rounded-bl-2xl">
       <ul class="flex flex-col justify-between sm:mt-5">
         <li class="p-5"><a href="#about" class="hover:-translate-y-1 duration-300 inline-block lg:text-lg">About this site</a></li>
@@ -78,6 +80,7 @@
         <img src="./images/kiwiwhite.png" class="w-1/12 sm:w-3/12 mx-auto py-5">  
       </ul>
     </aside>
+  <!--Main body of text-->
     <section class="p-10 sm:col-span-4 bg-orange-100 bg-opacity-90 flex flex-col rounded-b-2xl sm:rounded-tr-2xl sm:rounded-bl-none sm:rounded-br-2xl">
       <h3 id="about" class="pb-5 font-bold sm:text-lg md:text-xl lg:text-2xl">About this site</h3>
       <p class="md:p-5 xl:pb-0 text-base/7 lg:text-lg/8">This site aims to provide information and spread awareness about the native birds of New Zealand and what can be done to help preserve and conserve their declining populations.
@@ -93,7 +96,7 @@
       <div class="border-t-2 w-7/8 m-5 border-gray-800"></div>
       <h3 id="special" class="py-5 font-bold sm:text-lg md:text-xl lg:text-2xl">What's so special about NZ birds?</h3>
       <p class="md:p-5 text-base/7 lg:text-lg/8">New Zealand is home to some of the weirdest and most wonderful bird life in the world. Many of New Zealand's birds have unusual characteristics - some are flightless, some nocturnal, and some extremely long-lived. Many are very colourful and have unique and elaborate courtship displays. 
-        Because of the country's relatively unique geography, some of its birds are adapted for habitats not found elsewhere.</p>
+        <br>Because of the country's relatively unique geography, some of its birds are adapted for habitats not found elsewhere.</p>
         <p class="md:px-5 md:py-2 text-base/7 lg:text-lg/8">New Zealand is also known as the seabird capital of the world. This website focuses mainly on the land-based birds of New Zealand, but there are around 80 species of seabird in New Zealand and almost a third of them are found nowhere else.</p>
         <p class="md:px-5 md:py-2 text-base/7 lg:text-lg/8">The <a href="birds.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Birds</a> page shows a few of these wonderful creatures in more detail, but is nowhere near an exhaustive list of bird life in New Zealand.</p>
         <p class="md:px-5 md:py-2 text-base/7 lg:text-lg/8">Check out the <a href="resources.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Resources</a> page for links to more detailed information on New Zealand's magnificent biodiversity.
@@ -102,19 +105,18 @@
       <h3 id="history" class="py-5 font-bold sm:text-lg md:text-xl lg:text-2xl">A history of NZ birds</h3>
       <p class="md:p-5 text-base/7 lg:text-lg/8">Part of the reason New Zealand has such unique and special bird life is that prior to human interference, no mammals had evolved on this island nation (apart from three species of bat).
         <br>This meant a huge variety of birds evolved in ways they would never have been allowed to elsewhere in the world where mammal predators would have influenced their evolutionary path.</p>
-      
+    <!--Grid divider to format image/text responsively-->
       <div class="grid grid-cols-1 lg:grid-cols-2">  
-      <div>
-        <p class="md:px-5 py-3 lg:pt-6 text-base/7 lg:text-lg/8">When Maori settlers arrived in New Zealand (around the 13th century), they brought the kuri (Polynesian Dog) and kiore (Polynesian rat), which were the first mammals introduced to the habitat.
-        <br>This caused the extinction of a number of bird species at the time.
-        <br>European settlers then brought 51 further species of mammal, many of which still survive in New Zealand. This led to the extinction of at least four further bird species and many others are now very endangered.</p>
-      </div>
-      <img src="./images/home-fantail.avif" alt="A tui bird" class="rounded-2xl w-8/12 my-5 mx-auto max-h-[32rem]">
+        <div>
+          <p class="md:px-5 py-3 lg:pt-6 text-base/7 lg:text-lg/8">When Maori settlers arrived in New Zealand (around the 13th century), they brought the kuri (Polynesian Dog) and kiore (Polynesian rat), which were the first mammals introduced to the habitat.
+          <br>This caused the extinction of a number of bird species at the time.
+          <br>European settlers then brought 51 further species of mammal, many of which still survive in New Zealand. This led to the extinction of at least four further bird species and many others are now very endangered.</p>
+        </div>
+        <img src="./images/home-fantail.avif" alt="A tui bird" class="rounded-2xl w-8/12 my-5 mx-auto max-h-[32rem]">
       </div>
       <p class="md:px-5 py-3 text-base/7 lg:text-lg/8">It is not just the introduction of mammals that has led to bird extinction, but it is a significant factor due to the unique evolutionary makeup of New Zealand bird life.
         <br>Many of the endemic bird species had evolved little to no defence against the introduced mammals - both predatory mammals and those who competed for food with them.</p>
-        <p class="md:px-5 py-3 text-base/7 lg:text-lg/8">This has led many in NZ to adopt the "predator free" approach to conservation - check out the <a href="conservation.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Conservation</a> page for more details.
-        </p>
+      <p class="md:px-5 py-3 text-base/7 lg:text-lg/8">This has led many in NZ to adopt the "predator free" approach to conservation - check out the <a href="conservation.html" class="font-bold hover:text-orange-300 hover:-translate-y-1 duration-300 inline-block">Conservation</a> page for more details.</p>
     </section>
     </div>
   </main>
